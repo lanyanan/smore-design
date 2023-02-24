@@ -1,0 +1,1 @@
+import{_ as t,p as r,q as c,Q as e,t as o}from"./framework-e921cdd2.js";const a={},s=e("h1",{id:"图片裁剪",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#图片裁剪","aria-hidden":"true"},"#"),o(" 图片裁剪")],-1),n=e("p",null,"图片裁剪组件说明文档",-1),_=[s,n];function d(i,l){return r(),c("div",null,_)}const p=t(a,[["render",d],["__file","cropper.html.vue"]]);export{p as default};

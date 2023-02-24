@@ -1,0 +1,1 @@
+import{_ as e,p as o,q as n,Q as t,t as a}from"./framework-e921cdd2.js";const s={},c=t("h1",{id:"button-按钮",tabindex:"-1"},[t("a",{class:"header-anchor",href:"#button-按钮","aria-hidden":"true"},"#"),a(" Button 按钮")],-1),r=t("p",null,"buttong 按钮",-1),_=[c,r];function d(u,i){return o(),n("div",null,_)}const h=e(s,[["render",d],["__file","button.html.vue"]]);export{h as default};

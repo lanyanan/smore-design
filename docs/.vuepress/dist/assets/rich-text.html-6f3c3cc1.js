@@ -1,0 +1,1 @@
+import{_ as t,p as c,q as a,Q as e,t as r}from"./framework-e921cdd2.js";const s={},o=e("h1",{id:"富文本",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#富文本","aria-hidden":"true"},"#"),r(" 富文本")],-1),n=e("p",null,"富文本组件说明文档",-1),_=[o,n];function d(i,h){return c(),a("div",null,_)}const f=t(s,[["render",d],["__file","rich-text.html.vue"]]);export{f as default};
