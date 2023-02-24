@@ -1,0 +1,137 @@
+<template><div><p>点击元素，弹出气泡确认框。</p>
+<h3 id="基础用法" tabindex="-1"><a class="header-anchor" href="#基础用法" aria-hidden="true">#</a> 基础用法</h3>
+<p>Popconfirm 的属性与 Popover 很类似，因此对于重复属性，请参考 Popover 的文档，在此文档中不做详尽解释。
+:::demo 在 Popconfirm 中，只有 <code v-pre>title</code> 属性可用，<code v-pre>content</code> 属性不会被展示。</p>
+<div class="language-html line-numbers-mode" data-ext="html"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dl-popconfirm</span>
+  <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>这是一段内容确定删除吗？<span class="token punctuation">"</span></span>
+<span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dl-button</span> <span class="token attr-name">slot</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>reference<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>删除<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dl-button</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dl-popconfirm</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>:::</p>
+<h3 id="自定义" tabindex="-1"><a class="header-anchor" href="#自定义" aria-hidden="true">#</a> 自定义</h3>
+<p>可以在 Popconfirm 中自定义内容。
+:::demo</p>
+<div class="language-html line-numbers-mode" data-ext="html"><pre v-pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dl-popconfirm</span>
+  <span class="token attr-name">confirm-button-text</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">'</span>好的<span class="token punctuation">'</span></span>
+  <span class="token attr-name">cancdl-button-text</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">'</span>不用了<span class="token punctuation">'</span></span>
+  <span class="token attr-name">icon</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>el-icon-info<span class="token punctuation">"</span></span>
+  <span class="token attr-name">icon-color</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>red<span class="token punctuation">"</span></span>
+  <span class="token attr-name">title</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>这是一段内容确定删除吗？<span class="token punctuation">"</span></span>
+<span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dl-button</span> <span class="token attr-name">slot</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>reference<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>删除<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dl-button</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dl-popconfirm</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>:::</p>
+<h3 id="attributes" tabindex="-1"><a class="header-anchor" href="#attributes" aria-hidden="true">#</a> Attributes</h3>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>说明</th>
+<th>类型</th>
+<th>可选值</th>
+<th>默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>标题</td>
+<td>String</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>confirm-button-text</td>
+<td>确认按钮文字</td>
+<td>String</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>cancdl-button-text</td>
+<td>取消按钮文字</td>
+<td>String</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>confirm-button-type</td>
+<td>确认按钮类型</td>
+<td>String</td>
+<td>—</td>
+<td>Primary</td>
+</tr>
+<tr>
+<td>cancdl-button-type</td>
+<td>取消按钮类型</td>
+<td>String</td>
+<td>—</td>
+<td>Text</td>
+</tr>
+<tr>
+<td>icon</td>
+<td>Icon</td>
+<td>String</td>
+<td>—</td>
+<td>dl-icon-question</td>
+</tr>
+<tr>
+<td>icon-color</td>
+<td>Icon 颜色</td>
+<td>String</td>
+<td>—</td>
+<td>#f90</td>
+</tr>
+<tr>
+<td>hide-icon</td>
+<td>是否隐藏 Icon</td>
+<td>Boolean</td>
+<td>—</td>
+<td>false</td>
+</tr>
+</tbody>
+</table>
+<h3 id="slot" tabindex="-1"><a class="header-anchor" href="#slot" aria-hidden="true">#</a> Slot</h3>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>reference</td>
+<td>触发 Popconfirm 显示的 HTML 元素</td>
+</tr>
+</tbody>
+</table>
+<h3 id="events" tabindex="-1"><a class="header-anchor" href="#events" aria-hidden="true">#</a> Events</h3>
+<table>
+<thead>
+<tr>
+<th>事件名称</th>
+<th>说明</th>
+<th>回调参数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>confirm</td>
+<td>点击确认按钮时触发</td>
+<td>—</td>
+</tr>
+<tr>
+<td>cancel</td>
+<td>点击取消按钮时触发</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+</div></template>
+
+

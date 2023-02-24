@@ -10,7 +10,7 @@
 ::: code-group-item npm
 
 ```bash
-npm install douluo-ui -S
+npm install smore-design -S
 ```
 
 :::
@@ -18,7 +18,7 @@ npm install douluo-ui -S
 ::: code-group-item yarn
 
 ```bash
-yarn add douluo-ui -S
+yarn add smore-design -S
 ```
 
 :::
@@ -26,7 +26,7 @@ yarn add douluo-ui -S
 ::: code-group-item pnpm
 
 ```bash
-pnpm add douluo-ui
+pnpm add smore-design
 ```
 
 :::
@@ -36,11 +36,11 @@ pnpm add douluo-ui
 ## 使用
 
 ```js
-import ElementUI from 'element-ui';
-import DouluoUI from 'douluo-ui';
-import 'element-ui/lib/theme-chalk/index.css';
-import 'douluo-ui/lib/css/index.css';
+import AntV from 'ant-design-vue';
+import SmoreDesign from 'smore-design';
+import 'ant-design-vue/lib/index.css';
+import 'smore-design/lib/css/index.css';
 
-Vue.use(ElementUI);
-Vue.use(DouluoUI);
+Vue.use(AntV);
+Vue.use(SmoreDesign);
 ```

@@ -1,14 +1,13 @@
-
-const { config } =  require('vuepress-theme-hope')
 const alias = require('../../config/alias');
 const guideRoutes = require('./sidebarRoutes/guide.js')
 const developerGuideRoutes = require('./sidebarRoutes/developer.js')
 const elementUIRoutes = require('./sidebarRoutes/element.js')
 const businessRoutes = require('./sidebarRoutes/business.js')
+import { defaultTheme } from 'vuepress'
 
-module.exports = config({
-  title: 'Smore-Design',
-  description: 'A UI library build by Vue 3.0',
+module.exports = {
+  title: 'Hello VuePress',
+  description: 'Just playing around',
   markdown: {
     lineNumbers: true
   },
@@ -26,11 +25,11 @@ module.exports = config({
       description: '基于 Vue3.0 的组件库'
     }
   },
-  themeConfig: {
+  theme: defaultTheme({
     iconPrefix: 'icon-',
     repo: '',
     // 配置顶部导航栏
-    nav: [
+    navbar: [
       {
         text: '首页',
         link: '/'
@@ -69,10 +68,7 @@ module.exports = config({
     mdEnhance: {
       codegroup: true
     },
-  },
-  // 配置插件
-  plugins: ['demo-container'],
-  // 修改内部的webpack设置
+  }),
   configureWebpack: {
     resolve: {
       alias: alias
@@ -103,4 +99,4 @@ module.exports = config({
   chainWebpack: (config, isServer) => {
     // config 是 ChainableConfig 的一个实例
   }
-})
+}
