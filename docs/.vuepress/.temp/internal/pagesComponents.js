@@ -3,16 +3,6 @@ import { defineAsyncComponent } from 'vue'
 export const pagesComponents = {
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/index.html.vue")),
-  // path: /guide/button.html
-  "v-5319047b": defineAsyncComponent(() => import(/* webpackChunkName: "v-5319047b" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/button.html.vue")),
-  // path: /guide/concept.html
-  "v-51538346": defineAsyncComponent(() => import(/* webpackChunkName: "v-51538346" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/concept.html.vue")),
-  // path: /guide/datePicker.html
-  "v-01367211": defineAsyncComponent(() => import(/* webpackChunkName: "v-01367211" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/datePicker.html.vue")),
-  // path: /guide/instroduce.html
-  "v-62d589f7": defineAsyncComponent(() => import(/* webpackChunkName: "v-62d589f7" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/instroduce.html.vue")),
-  // path: /guide/time-picker.html
-  "v-2d75daf7": defineAsyncComponent(() => import(/* webpackChunkName: "v-2d75daf7" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/time-picker.html.vue")),
   // path: /developer/build-advance.html
   "v-b21d3f18": defineAsyncComponent(() => import(/* webpackChunkName: "v-b21d3f18" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/developer/build-advance.html.vue")),
   // path: /developer/changelog.html
@@ -35,6 +25,20 @@ export const pagesComponents = {
   "v-04f188f5": defineAsyncComponent(() => import(/* webpackChunkName: "v-04f188f5" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/developer/specify-build.html.vue")),
   // path: /developer/update-theme.html
   "v-005cd296": defineAsyncComponent(() => import(/* webpackChunkName: "v-005cd296" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/developer/update-theme.html.vue")),
+  // path: /guide/button.html
+  "v-5319047b": defineAsyncComponent(() => import(/* webpackChunkName: "v-5319047b" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/button.html.vue")),
+  // path: /guide/concept.html
+  "v-51538346": defineAsyncComponent(() => import(/* webpackChunkName: "v-51538346" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/concept.html.vue")),
+  // path: /guide/datePicker.html
+  "v-01367211": defineAsyncComponent(() => import(/* webpackChunkName: "v-01367211" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/datePicker.html.vue")),
+  // path: /guide/instroduce.html
+  "v-62d589f7": defineAsyncComponent(() => import(/* webpackChunkName: "v-62d589f7" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/instroduce.html.vue")),
+  // path: /guide/time-picker.html
+  "v-2d75daf7": defineAsyncComponent(() => import(/* webpackChunkName: "v-2d75daf7" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/time-picker.html.vue")),
+  // path: /packages/business/cropper.html
+  "v-927cc01c": defineAsyncComponent(() => import(/* webpackChunkName: "v-927cc01c" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/packages/business/cropper.html.vue")),
+  // path: /packages/business/rich-text.html
+  "v-8f6debbe": defineAsyncComponent(() => import(/* webpackChunkName: "v-8f6debbe" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/packages/business/rich-text.html.vue")),
   // path: /packages/antv/alert.html
   "v-73fc8274": defineAsyncComponent(() => import(/* webpackChunkName: "v-73fc8274" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/packages/antv/alert.html.vue")),
   // path: /packages/antv/avatar.html
@@ -165,10 +169,6 @@ export const pagesComponents = {
   "v-4879b1f3": defineAsyncComponent(() => import(/* webpackChunkName: "v-4879b1f3" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/packages/antv/typography.html.vue")),
   // path: /packages/antv/upload.html
   "v-7ea8ae3e": defineAsyncComponent(() => import(/* webpackChunkName: "v-7ea8ae3e" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/packages/antv/upload.html.vue")),
-  // path: /packages/business/cropper.html
-  "v-927cc01c": defineAsyncComponent(() => import(/* webpackChunkName: "v-927cc01c" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/packages/business/cropper.html.vue")),
-  // path: /packages/business/rich-text.html
-  "v-8f6debbe": defineAsyncComponent(() => import(/* webpackChunkName: "v-8f6debbe" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/packages/business/rich-text.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/404.html.vue")),
 }

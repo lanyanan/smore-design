@@ -1,16 +1,6 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
-  // path: /guide/button.html
-  "v-5319047b": () => import(/* webpackChunkName: "v-5319047b" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/button.html.js").then(({ data }) => data),
-  // path: /guide/concept.html
-  "v-51538346": () => import(/* webpackChunkName: "v-51538346" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/concept.html.js").then(({ data }) => data),
-  // path: /guide/datePicker.html
-  "v-01367211": () => import(/* webpackChunkName: "v-01367211" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/datePicker.html.js").then(({ data }) => data),
-  // path: /guide/instroduce.html
-  "v-62d589f7": () => import(/* webpackChunkName: "v-62d589f7" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/instroduce.html.js").then(({ data }) => data),
-  // path: /guide/time-picker.html
-  "v-2d75daf7": () => import(/* webpackChunkName: "v-2d75daf7" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/time-picker.html.js").then(({ data }) => data),
   // path: /developer/build-advance.html
   "v-b21d3f18": () => import(/* webpackChunkName: "v-b21d3f18" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/developer/build-advance.html.js").then(({ data }) => data),
   // path: /developer/changelog.html
@@ -33,6 +23,20 @@ export const pagesData = {
   "v-04f188f5": () => import(/* webpackChunkName: "v-04f188f5" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/developer/specify-build.html.js").then(({ data }) => data),
   // path: /developer/update-theme.html
   "v-005cd296": () => import(/* webpackChunkName: "v-005cd296" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/developer/update-theme.html.js").then(({ data }) => data),
+  // path: /guide/button.html
+  "v-5319047b": () => import(/* webpackChunkName: "v-5319047b" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/button.html.js").then(({ data }) => data),
+  // path: /guide/concept.html
+  "v-51538346": () => import(/* webpackChunkName: "v-51538346" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/concept.html.js").then(({ data }) => data),
+  // path: /guide/datePicker.html
+  "v-01367211": () => import(/* webpackChunkName: "v-01367211" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/datePicker.html.js").then(({ data }) => data),
+  // path: /guide/instroduce.html
+  "v-62d589f7": () => import(/* webpackChunkName: "v-62d589f7" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/instroduce.html.js").then(({ data }) => data),
+  // path: /guide/time-picker.html
+  "v-2d75daf7": () => import(/* webpackChunkName: "v-2d75daf7" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/guide/time-picker.html.js").then(({ data }) => data),
+  // path: /packages/business/cropper.html
+  "v-927cc01c": () => import(/* webpackChunkName: "v-927cc01c" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/packages/business/cropper.html.js").then(({ data }) => data),
+  // path: /packages/business/rich-text.html
+  "v-8f6debbe": () => import(/* webpackChunkName: "v-8f6debbe" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/packages/business/rich-text.html.js").then(({ data }) => data),
   // path: /packages/antv/alert.html
   "v-73fc8274": () => import(/* webpackChunkName: "v-73fc8274" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/packages/antv/alert.html.js").then(({ data }) => data),
   // path: /packages/antv/avatar.html
@@ -163,10 +167,6 @@ export const pagesData = {
   "v-4879b1f3": () => import(/* webpackChunkName: "v-4879b1f3" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/packages/antv/typography.html.js").then(({ data }) => data),
   // path: /packages/antv/upload.html
   "v-7ea8ae3e": () => import(/* webpackChunkName: "v-7ea8ae3e" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/packages/antv/upload.html.js").then(({ data }) => data),
-  // path: /packages/business/cropper.html
-  "v-927cc01c": () => import(/* webpackChunkName: "v-927cc01c" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/packages/business/cropper.html.js").then(({ data }) => data),
-  // path: /packages/business/rich-text.html
-  "v-8f6debbe": () => import(/* webpackChunkName: "v-8f6debbe" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/packages/business/rich-text.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"D:/www/ui/smore-design1/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
 }
