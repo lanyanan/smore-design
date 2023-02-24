@@ -1,0 +1,8 @@
+{
+  "name": "smore-design",
+  "version": "0.0.5",
+  "description": "smore-Y产品部-前端团队-vue3公共组件库",
+  "main": "smore-design.umd.js",
+  "author": "smore-Y产品部-前端团队",
+  "license": "MIT"
+}

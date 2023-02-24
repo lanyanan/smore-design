@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "types": ["vite/client"],
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "baseUrl": "src",
+    "skipLibCheck":true,
+    "paths": {
+      "@/*": ["*"],
+    },
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"],
+	"exclude": ["node_modules/**","*.config.ts"]
+}
