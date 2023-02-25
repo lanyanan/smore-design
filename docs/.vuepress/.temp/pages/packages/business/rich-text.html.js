@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-8f6debbe\",\"path\":\"/packages/business/rich-text.html\",\"title\":\"富文本\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1677207542000,\"contributors\":[{\"name\":\"lanyanan\",\"email\":\"yanan.lan@smartmore.com\",\"commits\":1}]},\"filePathRelative\":\"packages/business/rich-text.md\"}")

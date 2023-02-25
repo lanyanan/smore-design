@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-51c510a3\",\"path\":\"/developer/changelog.html\",\"title\":\"更新日志\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1677241006000,\"contributors\":[{\"name\":\"lanyanan\",\"email\":\"yanan.lan@smartmore.com\",\"commits\":2}]},\"filePathRelative\":\"developer/changelog.md\"}")

@@ -1,6 +1,0 @@
-.eslintrc.cjs
-tsconfig.app.json
-tsconfig.vitest.json
-vite.config.ts
-cypress/**
-commitlint.config.ts

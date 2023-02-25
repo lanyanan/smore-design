@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-927cc01c\",\"path\":\"/packages/business/cropper.html\",\"title\":\"图片裁剪\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1677207542000,\"contributors\":[{\"name\":\"lanyanan\",\"email\":\"yanan.lan@smartmore.com\",\"commits\":1}]},\"filePathRelative\":\"packages/business/cropper.md\"}")

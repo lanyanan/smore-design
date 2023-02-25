@@ -1,1 +1,0 @@
-export const data = JSON.parse("{\"key\":\"v-5319047b\",\"path\":\"/guide/button.html\",\"title\":\"Button 按钮\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1677207542000,\"contributors\":[{\"name\":\"lanyanan\",\"email\":\"yanan.lan@smartmore.com\",\"commits\":1}]},\"filePathRelative\":\"guide/button.md\"}")
